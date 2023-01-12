@@ -1,0 +1,901 @@
+/* Evrensel Stiller */
+*{box-sizing:border-box;}
+
+.clearfix{clear:both;}
+
+.centered{
+	width:1260px;
+	margin:0 auto;
+}
+
+body{
+	background-color:#f7f7f7;
+}
+
+#page-header nav ul li.active a{
+	color:rgba(255, 232, 0, 1);
+}
+
+#page-header nav ul li a:hover{
+	color:rgba(255, 232, 0, 1);
+}
+
+main nav ul li.active a {
+	color:rgba(255, 232, 0, 1);
+}
+
+
+
+a {
+	text-decoration:none;
+}
+
+nav ul li{
+	display:inline-block;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+/* Buttonlar */
+a.btn{
+	color:rgba(255, 232, 0, 1);
+	text-decoration:none;
+	background-color:black;
+	padding:11px;
+	display:inline-block;
+	float:right;
+	border-radius:5px;
+}
+
+a.btn:hover{
+	background-color:rgba(255, 232, 0, 1);
+	color:black;
+	
+}
+
+main div.row-6  a{
+	color:black;
+	text-decoration:none;
+	background-color:lightgray;
+	padding:13px;
+	display:inline-block;
+	
+}
+
+main div.row-6 a:hover{
+	background-color:rgba(255, 232, 0, 1);
+
+	
+}
+
+main div.row-1 .col-2  button{
+	color:black;
+	text-decoration:none;
+	background-color:rgba(193,192,192,1.00);
+	padding:13px;
+	
+	
+}
+
+main div.row-1 .col-2 button:hover{
+	background-color:rgba(255, 232, 0, 1);
+
+	
+}
+
+
+
+main div.row-1 .col-2 input{
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+}
+
+main div.row-1 .col-2 input:focus{
+	outline:none;
+}
+
+
+main div.row-1 .col-2 button{
+	margin-top:20px;
+	
+
+	
+	
+	
+}
+
+
+
+main .row-6   button{
+	color:black;
+	text-decoration:none;
+	background-color:rgba(193,192,192,1.00);
+	padding:13px;
+	margin-top:20px;
+	
+}
+
+main  .row-6    button:hover{
+	background-color:rgba(255, 232, 0, 1);
+
+	
+}
+
+main  .row-6    form{
+	width:300px;
+margin:10px auto;
+	
+}
+
+main  .row-6    input{
+	width:100%;
+
+	
+}
+
+
+
+main div.row-1 .col-1 li a{
+	width:10px;
+	height:10px;
+	border-radius:50px;
+	display:block;
+	background-color:white;
+	text-decoration:none;
+	margin-right:10px;
+
+}
+
+main div.row-1 .col-1 li.active a{
+	background-color:rgba(255, 232, 0, 1);
+
+}
+
+
+
+
+
+
+/* page stilleri */
+#page{
+	
+}
+
+strong{
+	font-weight:bold;
+}
+
+
+/*page-header stilleri*/
+#page-header{
+	background-color:white;
+}
+
+#page-header nav {
+	text-align:right;
+}
+#page-header h1.logo a{
+	color:rgba(255, 232, 0, 1);
+	font-size:35px;
+	font-weight:700;
+}
+
+
+#page-header  nav.main-menu{
+	margin-top:65px;
+		
+}
+
+#page-header  nav.main-menu li{
+	margin-left:10px;
+}
+
+#page-header  nav.social li{
+	margin-left:6px;
+}
+
+#page-header  nav.main-menu li:first-child{
+	margin-left:0;
+}
+
+#page-header  nav.main-menu a{
+	
+	color:black;
+	font-family: 'Oswald', sans-serif;
+}
+
+#page-header  nav.social a{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+#page-header  nav.social{
+	
+	
+}
+
+
+#page-header div.row{
+	
+		
+}
+
+
+#page-header div.row-1{
+	padding:20px 0;
+		
+}
+
+#page-header div.row-2{
+	padding:20px 0;
+		
+}
+
+
+#page-header .row-1 .col{
+	
+
+	float:left;
+}
+
+#page-header .row-1 .col-1{
+	
+	float:left;
+	width:10%;
+
+}
+
+
+
+#page-header .row-1 .col-2{
+	
+	float:left;
+	width:90%;
+
+	
+}
+
+
+
+#page-header div.row-2{
+	
+	height:50px;
+	width:100%;
+	background-color:lightgray;
+}
+
+
+
+
+/*main stilleri*/
+main{
+	
+	padding-top:60px;
+	padding-bottom:40px;
+	
+}
+
+
+
+
+main div.row-1 .col-2 input{
+	padding:10px;
+	text-align:center;
+	
+	font-size:16px;
+	
+
+}
+
+main div.row-1 .col-2 form{
+	padding:30px;
+margin-bottom:20px;
+	margin-top:20px;
+	
+}
+
+main div.row-1 .col-2 h4{
+	margin-bottom:20px;
+}
+
+main div.row-1 .col-2 p{
+	margin-bottom:40px;
+}
+
+
+
+main .col-1 nav{
+	position:absolute;
+	z-index:1;
+	height:50px;
+	right:15px;
+	top:15px;
+	
+	
+}
+
+main .col-1 li{
+	display:inline-block;
+	
+	
+	
+}
+
+
+
+
+main .row.row-1 div.col-1{
+	
+	width:66%;
+	float:left;
+	margin-right:2%;
+	overflow:hidden;
+	position:relative;
+}
+
+
+main .col-1 .slider {
+	width:200%;
+	height:400px;
+	background-color:red;
+		position:relative;
+}
+
+main .col-1 .slide {
+	width:50%;
+	height:400px;
+	float:left;
+}
+
+
+main .col-1 .slide-2{
+	background-image:url(../img/Facebook-Cover-image.jpg);
+		background-size:cover;
+	background-position:center;
+}
+main .col-1 .slide-1{
+	background-image:url(../img/Yolculuk-Plan-hpmepage-banner2.png);
+		background-size:cover;
+	background-position:center;
+}
+
+
+
+
+
+body.home main .row.row-1 div.col-2{
+height:400px;
+	float:left;
+	width:32%;
+	background-color:rgba(219,218,218,1.00);
+	padding:40px;
+	text-align:center;
+}
+
+main .row.type-1 .col{
+	float:left;
+	width:32%;
+	margin-left:2%;
+	background-color:red;
+	
+	margin-top:2%;
+}
+
+main .row.type-1 .col:first-child{
+	margin-left:0;
+}
+
+main .row.type-1 .col header{
+	height:200px;
+	
+	
+}
+
+
+main .row.type-1 .col div.content{
+	height:140px;
+	background-color:lightgray;
+	
+}
+
+main div.content h1{
+	margin-bottom:5px;
+	
+}
+
+main div.content{
+	padding:15px;
+}
+
+
+main .row.type-1 .col footer{
+	
+	background-color:grey;
+	
+}
+
+main.row .col {
+	
+}
+
+main .row.type-1 .col footer h4{
+	margin-top:10px;
+}
+
+main .row-2.type-1 .col-1 header{
+	background-image:url(../img/8-How-to-be-sociable-thumbnail-newsite.png);
+	background-size:cover;
+	background-position:center;
+	
+
+}
+
+main .row-2.type-1 .col-2 header{
+	background-image:url(../img/6-How-to-manage-the-fear-of-failure-thumbnail-newsite.png);
+	
+	
+
+}
+
+main .row-2.type-1 .col-3 header{
+		background-image:url(../img/4-How-to-identify-your-career-potential-thumbnail-newsite.png);
+}
+
+main .row-3.type-1 .col-1 header{
+	background-image:url(../img/degisime-uyumlanmak-list.png)
+}
+
+main .row-3.type-1 .col-2 header{
+	background-image:url(../img/resilience-list.png);
+}
+main .row-3.type-1 .col-3 header{
+	background-image:url(../img/yolculuk-plan-list-11.png);
+}
+
+main .row-4.type-1 .col-1 header{
+	background-image:url(../img/Mindfulness-banner.png);
+}
+
+main .row-4.type-1 .col-2 header{
+	background-image:url(../img/belirsizlige-ragmen-hayatn-secmek-web-banner-2.png);
+}
+
+main .row-4.type-1 .col-3 header{
+	background-image:url(../img/Yank-Yazgan-590x280-web.png);
+}
+
+
+main .row.type-1 header{
+	
+	background-size:cover;
+	background-position:center;
+	
+
+}
+
+main .row.type-1 footer{
+	padding:10px;
+	
+}
+
+main .row.type-1 footer h4{
+	color:white;
+	float:left;
+}
+
+main .row-5 .col{
+	margin-top:2%;
+	float:left;
+	margin-left:2%;
+	height:450px;
+	width:49%;
+	
+}
+
+main .row-5 .col-1{
+	margin-left:0;
+}
+
+main .row-5 .col-1 header{
+	height:300px;
+	background-image:url(../img/duygusal-egitim-1.jpg);
+	background-size:cover;
+}
+
+main .row-5 .col-2 header{
+	height:300px;
+	background-image:url(../img/Facebook-Cover-image.jpg);
+	background-size:cover;
+	background-position:center;
+	
+}
+
+main .row-5 .col-1 div.content{
+	height:100px;
+	background-color:rgba(58,58,58,1.00);
+}
+
+main .row-5 .col-1 footer{
+	height:50px;
+	background-color:rgba(58,58,58,1.00);
+}
+
+main .row-5 .col-2 div.content{
+	height:100px;
+	background-color:rgba(58,58,58,1.00);
+}
+
+
+main .row-5 .col-2 footer{
+	
+	height:50px;
+	background-color:rgba(58,58,58,1.00);
+	
+}
+
+main .row-5  footer{
+	padding:20px;
+	
+}
+main .row-5 h4{
+	color:white;
+	font-size:18px;
+	margin-bottom:10px;
+}
+
+main .row-5 div.content p{
+	color:white;
+	
+}
+	
+
+main .row-5  footer a{
+	font-size:15px;
+	text-decoration:none;
+	color:white;
+}
+
+main .row-5  footer a:hover{
+	color:yellow;
+}
+
+main .row-5 header:hover{
+	
+}
+
+
+main div.row-6 {
+	
+	margin-top:100px;
+	text-align:center;
+}
+
+
+main div.row-6 input{
+	padding:10px;
+	text-align:center;
+	outline:none;
+	font-size:16px;
+	
+
+}
+
+main div.row-6 form{
+margin-bottom:20px;
+}
+
+main div.row-6 h4{
+	margin-bottom:20px;
+}
+
+main div.row-6 p{
+	margin-bottom:20px;
+}
+
+
+
+
+
+
+/*page-footer stilleri*/
+
+#page-footer{
+	
+	
+}
+#page-footer div.row{
+	
+	
+	padding:50px;
+	text-align:center;
+}
+
+
+#page-footer div.row-1{
+	
+	
+	background-color:rgba(219,218,218,1.00);
+}
+
+#page-footer div.row-2{
+	
+	
+	background-color:#403c40;
+}
+
+
+
+#page-footer div.row-1 a{
+	 font-size:30px;
+	color:black;
+	margin-right:10px;
+}
+
+#page-footer div.row-1 a:hover{
+	 font-size:30px;
+	color:rgba(255, 232, 0, 1);
+	
+}
+
+#page-footer .row-2 {
+	
+	padding:40px;
+}
+
+#page-footer .row-2 nav li{
+	border-right:1px solid white;
+	padding-left:10px;
+	padding-right:13px;
+	margin-bottom:20px;
+}
+
+
+
+#page-footer .row-2 nav a{ 
+	text-decoration:none;
+	color:white;
+}
+
+
+#page-footer .row-2 nav a:hover{
+	text-decoration-line:underline;
+	color:white;
+}
+
+#page-footer .row-2 nav li:last-child{
+	border-right:0;
+}
+
+#page-footer .row-2 p{
+	color:white;
+	margin-top:40px;
+	margin-bottom:60px;
+}
+
+
+/* --- Page Calendar ---*/
+
+
+body.calendar main {
+	
+	 
+}
+
+body.calendar main header{
+	border-bottom:1px solid black;
+	margin-bottom:40px;
+	padding-bottom:40px;
+}
+
+
+body.calendar main div.col-1{
+	float:left;
+	width:63%;
+	margin-right:2%;
+}
+
+body.calendar main  div.col-2{
+	
+	
+	float:left;
+	width:35%;
+	
+}
+
+body.calendar main header nav{
+	float:right;
+	background-color:rgba(193,192,192,1.00);
+	font-size:14px;
+}
+
+body.calendar main header nav li{
+	padding:8px 16px;
+}
+
+
+body.calendar main header h2{
+	float:left;
+}
+
+body.calendar .row{
+	background-color:#ecebec;
+}
+
+
+
+body.calendar main .wrapper-days .row .col-1 h4.day{
+	border-top:10px solid rgba(255, 232, 0, 1);
+	background-color:white;
+	display:inline-block;
+	padding:10px;
+}
+
+
+body.calendar main .wrapper-days .col-3 a.btn{
+	padding:15px;
+	background-color:rgba(218,218,218,1.00);
+	color:black;
+	border-radius:0;
+}
+
+body.calendar main .wrapper-days .col-3 a.btn:hover{
+	
+	background-color:#ffe800;
+	color:black;
+}
+
+
+
+body.calendar main .wrapper-days {
+	margin-bottom:15px;
+}
+
+body.calendar main .wrapper-days .col-2 h2{
+	margin-bottom:14px;
+}
+
+body.calendar main .wrapper-days .col-2 ul.retails li{
+	display:inline-block;
+}
+
+
+body.calendar main  .col-1 h3{
+	margin-bottom:15px;
+	
+}
+
+
+
+
+body.calendar main  div.wrapper-days .row:nth-child(odd){
+	background-color:#e5e5e4;
+	
+}
+
+
+
+
+
+
+
+
+body.calendar main .row .col {
+	
+	height:auto;
+	float:left;
+	padding:15px;
+	margin:0;
+}
+
+
+
+body.calendar main .row .col-1 {
+	width:10%;
+	border:none;
+	
+}
+
+body.calendar main .row .col-2 {
+	width:70%;
+	border:none;
+}
+
+body.calendar main .row .col-3 {
+	width:20%;
+	text-align:center;
+}
+
+
+body.calendar main .row  .col-2 ul.retails li{
+	margin-right:30px;
+}
+
+body.calendar main .row  .col-2 ul.retails li:last-child{
+	margin-right:0;
+}
+
+#the-calendar{
+	margin-top:30px;
+}
+
+#the-calendar header{
+	padding:15px;
+	background-color:#ffe800;
+	border:none;
+	margin:0;
+}
+
+
+#the-calendar .content{
+	height:300px;
+	background-color:white;
+}
+
+
+#the-calendar header .col{
+	 margin:0;
+	padding:10px;
+	float:left;
+	text-align:center;
+	
+	font-family:'Oswald';
+}
+
+
+#the-calendar header .col-1{
+	width:10%;
+	
+	
+}
+
+#the-calendar header .col-2{
+	width:80%;
+	
+}
+
+
+#the-calendar header  a{
+	display:inline-block;
+	padding:5px;
+	
+}
+
+#the-calendar header a:hover{
+	background-color:lightgray;
+	color:white;
+	
+}
+
+#the-calendar header .col-2 h3{
+	padding-top:5px;
+	
+}
+
+
+#the-calendar footer a{
+	text-align:right;
+	
+}
+
+#the-calendar footer a{
+	float:right;
+	text-decoration:none;
+	margin-top:15px;
+	color:black;
+	
+}
+
+#the-calendar footer a:hover{
+	text-decoration:underline;
+	
+}
+
+
+
+
+
